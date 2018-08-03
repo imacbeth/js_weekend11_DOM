@@ -1,24 +1,25 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Reading List App</title>
+    <title>Travel List App</title>
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <script src="js/app.js"></script>
   </head>
   <body>
+    <h1>Travel List</h1>
     <form id="new-item-form">
       <div id="form-wrapper">
         <div class="form-item">
-          <label for="city" class="primary">Title</label>
-          <input type="text" id="country" required/>
+          <label for="city" class="primary">City</label>
+          <input type="text" id="city" required/>
         </div>
         <div class="form-item">
-      <label for="country" class="primary">Author</label>
+      <label for="country" class="primary">Country</label>
       <input type="text" id="country" required/>
     </div>
 
     <div class="form-item">
-      <label for="season" class="primary">Category</label>
+      <label for="season" class="primary">Season</label>
       <select id="season">
         <option value="" disabled selected></option>
         <option value="Spring">Spring</option>
@@ -31,12 +32,12 @@
   <input type="submit" value="save"/>
 </form>
 
-<h1>Travel Hit List</h1>
+<h2>Your Hit List</h2>
 <div id="travel-list">
   <ul id="places">
-    <li>Tokyo Japan Spring</li>
-    <li>New York USA Autumn</li>
-    
+    <li>Tokyo, Japan, Spring</li>
+    <li>New York, USA, Autumn</li>
+
  </ul></div>
   <input type='submit' id = "button" value="clear list"/>
 

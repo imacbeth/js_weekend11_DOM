@@ -10,9 +10,9 @@ form.addEventListener('submit', (event) => {
     const country = event.target.country.value;
     const season = event.target.season.value;
 
-    newBook.textContent = `${city} ${country} ${season}`
+    newPlace.textContent = `${city}, ${country}, ${season}`
 
-  bookslist.appendChild(newPlace);
+  travellist.appendChild(newPlace);
   form.reset();
 
 
