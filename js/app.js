@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const season = event.target.season.value;
 
       const travellist = document.querySelector('#travel-list');
-      const newPlace = document.createElement('ul');
+      const newPlace = document.createElement('li');
 
       newPlace.textContent = `${city}, ${country}, ${season}`
 
@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     travellist.appendChild(newPlace);
     form.reset();
   });
+
 
   const travellist = document.querySelector('#travel-list');
   const button = document.querySelector('#button');

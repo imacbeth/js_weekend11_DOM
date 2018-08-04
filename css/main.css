@@ -1,0 +1,33 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  align-items: center;
+}
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+#new-item-form {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  align-content: space-between;
+}
+
+#travel-list {
+    align-content: space-around;
+}
+#button {
+  align-items: center;
+  justify-content: center;
+}
